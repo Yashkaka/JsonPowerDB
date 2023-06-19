@@ -151,7 +151,7 @@ var token = "90933140|-31949318944692763|90951347";
             savetoloavelstorage(resultObj)
             $("#roll-no").prop("disabled", true)
             $("#savebutton").prop("disabled", true)
-            $("#roll-no").prop("disabled", true)
+            $("#reset").prop("disabled", true)
             $("#update").prop("disabled", false)
 
             enableInput()
