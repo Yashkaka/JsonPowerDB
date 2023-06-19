@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container p-3 my-5 border">
+
+        <h1>Student Registration</h1>
+        <form id="form" method="POST">
+            <div class="form-group">
+                <!-- <span><label for="rollno">Roll No</label><label id="rollnoMsg"></label></span> -->
+                <h4> Roll No</h4>
+                <input type="text" class="form-control" name="rollno" id="roll-no" placeholder="Enter your Roll No" "
+                    required>
+            </div>
+            <div class="form-group">
+                <h4> Name</h4>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <h4> Class</h4>
+                <input type="text" class="form-control" name="class" id="class" placeholder="Enter your Class" required>
+            </div>
+            <div class="form-group">
+                <h4> Birth Date</h4>
+                <input type="date" class="form-control" name="birthdate" id="birth-date" placeholder="Enter your Birth date"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <h4> Address</h4>
+                <input type="text" class="form-control" name="address" id="address" placeholder="Enter your address"
+                    required>
+            </div>
+            <div class="form-group">
+                <h4> Enrollment Date</h4>
+                <input type="date" class="form-control" name="enrollmentdate" id="enrollment-date"
+                    placeholder="Enter your Enrollment date" required>
+            </div>
+            <input type="button" class="btn btn-info" id="savebutton" value="Save" onclick=save()>
+            <input type="button" class="btn btn-primary" id="update" value="Update" onclick=Updatedata()>
+            <input type="button" class="btn btn-danger" id="reset" value="Reset" onclick=resetForm()>
+
+        </form>
+    </div>
+    <script src="student.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+
+</html>
